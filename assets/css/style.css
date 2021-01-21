@@ -27,9 +27,18 @@ a:hover {
   color: #000;
 }
 
+#scripts a{
+  color: #7a29cc;
+  text-decoration: underline;
+}
+
+#scripts a:hover{
+  color: #000;
+  text-decoration: underline;
+}
+
 h1, h2, h3, h4, h5, h6, .font-heading {
   font-family: 'Sirin Stencil', cursive;
-  font-size: 40px;
   color: #7a29cc;
 }
 
@@ -229,12 +238,20 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-size: 20px;
 }
 
-.h3 {
+h2 {
+  font-size: 40px;
+}
+
+h3 {
   font-size: 20px;
 }
 
-.h4 {
+h4 {
   font-size: 16px;
+}
+
+h5 {
+  font-size: 12px;
 }
 
 .heading {
